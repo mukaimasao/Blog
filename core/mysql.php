@@ -108,9 +108,8 @@
 
             $$nome_campo = $dado;
         }
-
+        
         $instrucao = delete($entidade, $coringa_criterio);
-
         $conexao = conecta();
 
         $stmt = mysqli_prepare($conexao, $instrucao);
