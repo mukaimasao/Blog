@@ -24,11 +24,11 @@
                         <input type="hidden" name="acao" value="login">
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="text" class="form-control" require="required" id="email" name="email">
+                            <input type="text" class="form-control" required id="email" name="email">
                         </div>
                         <div class="form-group">
                             <label for="senha">Senha</label>
-                            <input type="password" class="form-control" require="required" id="senha" name="senha">
+                            <input type="password" class="form-control" required id="senha" name="senha">
                         </div>
                         <div class="text-right">
                             <button class="btn btn-success" type="submit">Acessar</button>
